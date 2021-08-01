@@ -1,4 +1,4 @@
-void Aula0301() {
+void Exemplo01() {
   //
 
   /**
@@ -13,10 +13,12 @@ void Aula0301() {
 
   /**
    * Remova o comentário doo código abaixo para ver o erro
+   *
+   *
+   * String variavel1_1;
+   * print("variavel1: $variavel1_1");
+   * 
    */
-
-  // String variavel1_1;
-  // print("variavel1: $variavel1_1");
 
   /**
    * Exemplo de Utilização de Variável Nullable

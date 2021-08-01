@@ -1,21 +1,33 @@
-void Aula05() {
+void Exemplo06() {
   //
 
-  /*Não permite lista nula nem item nulo*/
+  /**
+   * Lista não pode ser nula
+   * Valores nao podem ser nulos
+   */
+
   List<String> listaNonNullable = [];
-  // print(listaNonNullable.length);
 
-  /*Permite lista nula mais não permite item nulo*/
+  /**
+   * Lista pode ser nula
+   * Valores nao podem ser nulos
+   */
+
   List<String>? listaNullableWithoutNullValue;
-  // print(listaNullableWithoutNullValue?.length);
 
-  /*Não permite lista numa mais permite item nulo*/
+  /**
+   * Lista não pode ser nula
+   * Valores podem ser nulos
+   */
+
   List<String?> listaNullableWithNullValue = [];
-  // print(listaNullableWithNullValue.length);
 
-  /*Permite lista e valores nulos*/
+  /**
+   * Lista pode ser nula
+   * Valores podem ser nulos
+   */
+
   List<String?>? listaFullNullable;
-  // print(listaFullNullable?.length);
 
   /**
    * Exemplo 01

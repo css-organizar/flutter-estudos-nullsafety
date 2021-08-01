@@ -1,14 +1,14 @@
-void Aula0401() {
+void Exemplo03() {
   //
 
-  /*
-    Non-Nullable
-      - Padrão atual do dart
-      - Não aceita nulo
-      - Deve ser inicializada
-      - pode ser ignorada adicionando notação
-        - // @dart=2.9
-  */
+  /**
+   * Non-Nullable
+   *   - Padrão atual do dart
+   *   - Não aceita nulo
+   *   - Deve ser inicializada
+   *   - pode ser ignorada adicionando notação
+   *     - // @dart=2.9
+   */
 
   Object var_object_non_nullable = null ?? Object();
   double var_double_non_nullable = null ?? 0.0;
@@ -20,7 +20,9 @@ void Aula0401() {
   List var_list_non_nullable = null ?? [];
   Map var_map_non_nullable = null ?? {};
 
-  /*Nullable*/
+  /**
+   * Nullable
+   */
 
   Object? var_object_nullable = null;
   double? var_double_nullable = null;
